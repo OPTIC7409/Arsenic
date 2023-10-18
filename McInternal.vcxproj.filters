@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="JNI.cpp">
+      <Filter>JNI</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\include\ImGui\imgui.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\include\ImGui\imgui_draw.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\include\ImGui\imgui_tables.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\include\ImGui\imgui_widgets.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\include\ImGui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\include\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="newgui.cpp">
+      <Filter>GUI\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="font_awesome.cpp">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{e55630bb-d7c8-4a42-ae52-0c0bdb455573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{b55e5264-76e5-45a0-8808-f469c15f6cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{ed855c4e-4a79-4558-bd7c-8c06346471d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\JNIMapper">
+      <UniqueIdentifier>{bfcfda1f-447a-4890-8839-f68a8eb87a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JNI">
+      <UniqueIdentifier>{bdfb56df-6135-4ee3-b3ab-7aa92ff2a1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{89974210-2d98-4dfd-85d1-1a9d6a37b20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\ImGui">
+      <UniqueIdentifier>{f8297648-9c18-45a5-a35d-e1c7c2539eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\ImGui\backends">
+      <UniqueIdentifier>{b2a65ee1-68a4-4925-8ecc-4f7894cc5885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploits">
+      <UniqueIdentifier>{db050281-bbf1-4c83-a4e4-078c08de94a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\gui">
+      <UniqueIdentifier>{6873ccfb-8f60-4923-9de3-92d127a5356c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\include\JNIMapper\JNIMapper.h">
+      <Filter>Dependencies\JNIMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\JNIMapper\JNITypes.h">
+      <Filter>Dependencies\JNIMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="JNI.h">
+      <Filter>JNI</Filter>
+    </ClInclude>
+    <ClInclude Include="Link.h">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\MinHook.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\json.hpp">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imconfig.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imgui_internal.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imstb_rectpack.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imstb_textedit.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\imstb_truetype.h">
+      <Filter>Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\backends\imgui_impl_opengl3.h">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\include\ImGui\backends\imgui_impl_win32.h">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Exploits.h">
+      <Filter>Exploits</Filter>
+    </ClInclude>
+    <ClInclude Include="newgui.hpp">
+      <Filter>GUI\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.hpp">
+      <Filter>GUI\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="font_awesome.h">
+      <Filter>Dependencies\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="color_t.hpp">
+      <Filter>GUI\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\result.json">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
